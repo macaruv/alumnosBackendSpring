@@ -19,7 +19,7 @@ import com.ipn.mx.domain.entity.Alumno;
 import com.ipn.mx.service.AlumnoService;
 
 //@CrossOrigin(origins = {"https://categoriayproducto-angular.netlify.app"}, allowCredentials = "true")
-@CrossOrigin(origins = {"https://shimmering-lolly-1e8ca8.netlify.app"}, allowCredentials = "true")
+@CrossOrigin(origins = {"https://alumnoangularprimeng.netlify.app"}, allowCredentials = "true")
 
 @RestController
 @RequestMapping("/api")
