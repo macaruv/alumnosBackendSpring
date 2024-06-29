@@ -29,12 +29,12 @@ public class Alumno implements Serializable {
 
     @Column(name="Nombre", length=30, nullable = false)
     private String Nombre;
-
-    @Column(name="ApellidoMaterno", length=30, nullable = false)
-    private String ApellidoMaterno;
     
     @Column(name="ApellidoPaterno", length=30, nullable = false)
     private String ApellidoPaterno;
+
+    @Column(name="ApellidoMaterno", length=30, nullable = false)
+    private String ApellidoMaterno;
     
     @Column(name="Email", length=50, nullable = false)
     private String Email;
